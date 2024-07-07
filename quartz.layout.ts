@@ -29,11 +29,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Backlinks(),
-    Component.Graph(),
+    Component.DesktopOnly(Component.Graph()),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+  afterBody: [
+    Component.MobileOnly(Component.Graph()),
   ],
 }
 
