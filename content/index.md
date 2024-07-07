@@ -9,15 +9,9 @@ This is where I vent my brain, sharing knowledge and ideas. If you like to get i
 
 ---
 
-<!-- TODO: Automate this. -->
-<div class="categories">
-  <a href="/Articles">📰 Articles</a> |
-  <a href="/Books">📖 Books</a> |
-  <a href="/Notes">🗒️  Notes</a> |
-  <a href="/Music">🎧 Music</a> |
-  <a href="/Presentations">📈 Presentations</a>
-</div>
+## Browse
 
----
-
-# Recent
+  * [📰 Articles](/Articles)
+  * [📖 Books](/Books)
+  * [🗒️  Notes](/Notes)
+  * [📈 Presentations](/Presentations)

@@ -7,8 +7,11 @@ export const sharedPageComponents: SharedLayout = {
   header: [Component.RenderExcalidraw()],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "LinkedIn": "https://nl.linkedin.com/in/bart-kleijngeld-3a387b146",
+      "Last.fm": "https://www.last.fm/user/bartkl",
+      "Goodreads": "https://www.goodreads.com/user/show/25204851-bart-kleijngeld",
+      "MUBI": "https://mubi.com/en/users/6341306",
+      "GitHub": "https://github.com/bartkl",
     },
   }),
 }
@@ -26,12 +29,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Backlinks(),
+    Component.Graph(),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
@@ -43,7 +45,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }
