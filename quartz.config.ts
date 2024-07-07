@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "bartkl.com",
-    ignorePatterns: ["private", "templates", ".obsidian", "Excalidraw"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Excalidraw", "Attachments/*.excalidraw.md"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
