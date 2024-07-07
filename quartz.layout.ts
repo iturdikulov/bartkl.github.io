@@ -8,10 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "LinkedIn": "https://nl.linkedin.com/in/bart-kleijngeld-3a387b146",
-      "Last.fm": "https://www.last.fm/user/bartkl",
+      "GitHub": "https://github.com/bartkl",
       "Goodreads": "https://www.goodreads.com/user/show/25204851-bart-kleijngeld",
       "MUBI": "https://mubi.com/en/users/6341306",
-      "GitHub": "https://github.com/bartkl",
+      // "Last.fm": "https://www.last.fm/user/bartkl",  // TODO: Fix such that no weird wrapping occurs on mobile.
     },
   }),
 }
