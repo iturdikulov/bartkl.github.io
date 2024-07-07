@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "81765efc32bba69d",
+        "id": "597b4cfebfdc3ae9",
         "type": "tabs",
         "children": [
           {
-            "id": "421634304f2fef4b",
+            "id": "6081416841805e35",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 528.5
+    "width": 799.5
   },
   "right": {
     "id": "a0260a153f1930fb",
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 17.38.29.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 17.38.29.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 17.38.29.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,9 +149,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9b9831c858f5fdca",
+  "active": "6081416841805e35",
   "lastOpenFiles": [
+    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 18.23.38.excalidraw.md",
+    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 17.38.44.excalidraw.md",
+    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 16.38.50.excalidraw.md",
+    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 17.38.29.excalidraw.md",
     "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 17.38.29.excalidraw.light.svg",
+    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 17.38.29.excalidraw.dark.svg",
+    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 16.38.50.excalidraw.dark.svg",
+    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 16.38.50.excalidraw.light.svg",
     "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 18.23.38.excalidraw.light.svg",
     "Attachments/Untitled 2024-07-07 16.42.45.excalidraw.md",
     "Untitled.md",
@@ -170,10 +173,7 @@
     "Articles/A Developer's Guide New Version.md",
     "Attachments/A Developer's Guide New Version 2024-07-07 13.26.52.excalidraw.md",
     "Attachments/A Developer's Guide New Version 2024-07-07 13.26.52.excalidraw.light.svg",
-    "Attachments/A Developer's Guide New Version 2024-07-07 13.26.52.excalidraw.dark.svg",
     "Attachments/A Developer's Guide New Version 2024-07-07 13.25.23.excalidraw.md",
-    "Attachments/A Developer's Guide New Version 2024-07-07 13.25.23.excalidraw.light.svg",
-    "Attachments/A Developer's Guide New Version 2024-07-07 13.25.23.excalidraw.dark.svg",
     "Notes/Function subtyping understood through provision and requirement.md",
     "Notes/JSON-LD for Mapping Semantics onto Data.md",
     "Notes/Querying Non-Existence Implies CWA.md",
@@ -184,17 +184,13 @@
     "Notes/Analogy between schema validation and human communication.md",
     "Articles/Making UML Class Diagrams FAIR.md",
     "Drawing 2024-07-06 18.25.38.excalidraw.md",
-    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 16.38.50.excalidraw.dark.svg",
-    "Attachments/Mapping LD URIs between Vocabularies and APIs 2024-04-30 16.38.50.excalidraw.md",
     "Attachments/Making UML Class Diagrams FAIR 2024-07-06 17.45.05.excalidraw.md",
     "Presentations.md",
     "Excalidraw/Template.excalidraw.md",
     "Attachments/Making UML Class Diagrams FAIR 2024-07-06 17.04.43.excalidraw.md",
     "Attachments/Making UML Class Diagrams FAIR 2024-07-06 13.47.01.excalidraw.md",
-    "Excalidraw/Palettes/PRG triad.md",
     "Excalidraw/Untitled",
     "Excalidraw/Palettes",
-    "Attachments/Making UML Class Diagrams FAIR 2024-07-06 16.09.35.excalidraw.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
