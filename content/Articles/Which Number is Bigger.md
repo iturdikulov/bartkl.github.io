@@ -13,7 +13,8 @@ I came across [this question on Quora](https://www.quora.com/Which-number-is-big
 # Exploring the Likely Answer
 To come up with a hypothesis about which number is bigger, let's explore this relationship with some other numbers and get a feel:
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 1^2 &< 2^1 \\
 2^3 &< 3^2 \\
 3^4 &> 4^3 \\
@@ -23,7 +24,7 @@ $$
 It seems that continuing from this point, the number with the larger exponent will remain bigger than the one with the larger base.
 
 > [!hypothesis]
-> $n^{n+1} > (n+1)^n$ for $n > 2$.
+> $56^{57} > 57^{56}
 
 # Informal Proof
 I thought it'd be fun to take on this problem where I try to use as little as math knowledge as possible.
