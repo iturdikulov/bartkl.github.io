@@ -24,7 +24,7 @@ $$
 It seems that continuing from this point, the number with the larger exponent will remain bigger than the one with the larger base.
 
 > [!hypothesis]
-> $56^{57} > 57^{56}
+> $56^{57} > 57^{56}$
 
 # Informal Proof
 I thought it'd be fun to take on this problem where I try to use as little as math knowledge as possible.
