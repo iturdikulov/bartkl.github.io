@@ -29,7 +29,7 @@ It seems that continuing from this point, the number with the larger exponent wi
 # Informal Proof
 I thought it'd be fun to take on this problem where I try to use as little as math knowledge as possible.
 
-Let's try out some rewriting and see if that gives us any ideas. I'll be trying to simplify, so perhaps get rid of the $57$ favoring a $56$.
+Let's try out some rewriting and see if that gives us any ideas. I'll be trying to simplify, so perhaps get rid of the $57$'s favoring $56$'s.
 
 Let's look at $56^{57}$ first:
 
@@ -49,7 +49,7 @@ $$
 \begin{aligned}
 57^{56} \\
 &= (56 + 1)^{56} \\
-&= (56 + 1)^{56} \cdot (56 + 1)^{56} \cdot ... \cdot (56 + 1)^{56}
+&= (56 + 1) \cdot (56 + 1) \cdot ... \cdot (56 + 1)
 \end{aligned}
 $$
 
