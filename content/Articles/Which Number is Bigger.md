@@ -57,9 +57,9 @@ Things feel simpler with only $56$'s around, but it's far from clear how to comp
 
 Well, we could simply start performing the multiplications. This way we ultimately end up with a sum as we desire. But it's not quite straightforward what that result would be. Maybe we can do something clever.
 
-Let's see if we can estimate what this sum would look like **maximally**. If we can then show that the sum of solely $56^{56}$'s is larger than that sum, it must also be larger than the actual sum.
+Let's see if we can estimate what this sum would look like in the worst case (maximally). If we can then show that the sum of solely $56^{56}$'s is larger than that sum, it must also be larger than the actual sum.
 
-Looking at all the $(56 + 1)$ being multiplied, the biggest term is $56^{56}$. This one results from the multiplcation of all $56$'s. There's not enough $56$'s for obtaining a $56^{57}$, so yes, $56^{56}$ is indeed the biggest term.
+Looking at all the $(56 + 1)$ being multiplied, the biggest term is $56^{56}$. This one results from the multiplcation of all $56$'s. Note there's not enough $56$'s for obtaining a $56^{57}$ or beyond.
 
 From there, all other multiplications will yield all sorts of possible multiples of powers of $56$. Without doing any calculations, we can assume the worst case (yielding the biggest possible sum) and estimate that every exponent smaller than $56$ will occur:
 
@@ -69,7 +69,7 @@ $$
 56^{56} + c_{55} \cdot 56^{55} + c_{54} \cdot 56^{54} + ... + c_{1} \cdot 56 + 1
 \end{aligned}
 $$
-Note that since we're not calculating anything, we don't know the values of the $c_i$ constants, however, we do know that these are all smaller than $56$.
+Note that since we're not calculating anything, we don't know the values of most of the $c_i$ constants, with the exception of the first and last terms. However, we do know that these constants are all smaller than $56$.
 
 > [!explanation]-
 > Why is it the case that for all $i$: $c_i < 56$?
