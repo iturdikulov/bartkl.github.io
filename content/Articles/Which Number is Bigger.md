@@ -80,7 +80,7 @@ Note that since we're not calculating anything, we don't know the values of most
 > 57 \cdot 56^j =& \\
 > (56 + 1) \cdot 56^j =& \\
 > 56 \cdot 56^j + 56^j =& \\
-> 56^{j+1} + 56^j
+> 56^{j+1} + 56^j&
 > \end{aligned}
 > $$
 > As you can see, such a constant cannot exist since it "spills over" and is therefore not a constant of just that term.
@@ -98,7 +98,7 @@ c_{54} \cdot 56^{54} <& 56^{56} \\
 c_1 \cdot 56 + 1 <& 56^{56}
 \end{aligned}
 $$
-Only the first terms are equal, and all others are smaller in the second sum. Therefore clearly their sum is smaller is well. This means $56^{57}$ is larger than the maximal estimation we made of $57^{56}$, which guarantees it's bigger than $57^{56}$ as well.
+Only the first terms are equal, and all others are smaller in the second sum. Therefore clearly their sum is smaller as well. This means $56^{57}$ is larger than the maximal estimation we made of $57^{56}$, which guarantees it's bigger than $57^{56}$ as well.
 
 > [!note]
 > For those with a math background it's clear I'm using polynomial expansion here, where I'm treating $56$ as the variable. This proof can easily be formalised and even generalized for all $n > 2$ using this method.
