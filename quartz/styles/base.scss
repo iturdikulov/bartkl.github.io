@@ -130,6 +130,7 @@ a {
   }
 
   & article {
+    font-size: 1.1rem;
     & > h1 {
       font-size: 2rem;
     }
@@ -183,7 +184,8 @@ a {
     }
 
     & .sidebar.left {
-      left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+      left: 1rem;
+      // left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
       @media all and (max-width: $fullPageWidth) {
         gap: 0;
         align-items: center;
@@ -191,7 +193,8 @@ a {
     }
 
     & .sidebar.right {
-      right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+      right: 1rem;
+      // right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
       flex-wrap: wrap;
       & > * {
         @media all and (max-width: $fullPageWidth) {
