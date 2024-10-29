@@ -28,6 +28,11 @@ Perhaps the distinction becomes more clear when I paraphrase as follows:
 2. If `x` does not reside in one and only house, then `x` is not a citizen. (_Knowledge representation_)
     * If, moreover, `x` is stated to be a citizen, this leads to a *contradiction* and consequently to *inconsistent* knowledge.
 
+> [!INFO]
+> Another way of putting it is that:
+> * *Validation is prescriptive*
+> * *Knowledge representation is descriptive*
+
 In the case of this model, it seems pretty obvious the validation interpretation is the intended one, but later we will be looking at an example where it is in fact the second interpretation that makes more sense.
 
 Furthermore, it is important for a metamodel to be explicit about its semantics and assumptions. Let's discuss the two modes of interpretation in more detail.
