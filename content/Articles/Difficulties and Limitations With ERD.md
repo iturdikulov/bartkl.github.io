@@ -93,7 +93,7 @@ The Web Ontology Language (OWL) is a formal language for knowledge representatio
 
 Let's try and model this model in OWL. I will be using the Turtle syntax.
 
-```owl
+```ttl
 :Car a owl:Class .
 :Wheel a owl:Class .
 
@@ -102,6 +102,8 @@ Let's try and model this model in OWL. I will be using the Turtle syntax.
 
 :possessing a owl:ObjectProperty .
 :partOf a owl:ObjectProperty .
+
+:possessing owl:inverseOf :partOf .
 
 :Car rdfs:subClassOf [
   a owl:Restriction ;
@@ -118,10 +120,26 @@ Let's try and model this model in OWL. I will be using the Turtle syntax.
 ] .
 ```
 
-<!-- TODO: 
-- are the two relations each other's inverses and can/should I state this?
-- can I add axioms to do with domains/ranges for the properties?
--->
+#### Properties in OWL versus relations in ERD
+Note that in OWL, properties are not scoped to classes but exist just like classes do "at the top-level". Contrast this with many object-oriented programming languages, where attributes are often owned by classes.
+
+This is yet another example where OWL is really explicit about how its semantics work, where with ERD it is not clear what assumptions can be made: If I encounter the use of two relationships with the same name in the some ERD model, can I the assume these are the same? Or different? Or neither?
+
+> [!NOTE] Domains, range and inverse axioms
+> One may be tempted to include the following domain and range axioms:
+> ```ttl
+> :possessing rdfs:domain :Car ;
+>             rdfs:range :Wheel .
+> :partOf rdfs:domain :Wheel ;
+>             rdfs:range :Car .
+> ```
+> 
+> First of all, it's important to realize that this is not necessary in OWL, and can actually be dangerous since it affects what knowledge can be inferred about things. It's best to tread lightly.
+>
+> This again touches on how to interpret the semantics of the metamodel. These axioms have a clear meaning in OWL. For example, the first axiom causes any entity which has a value for the `:possessing` property to be of type `Car`, and the value of type `Wheel`. Be cautious with this pattern, since if the `:possessing` property is also used for non-`Car` entities, those would be inferred to be `Car`s anyway.
+>
+> Note that despite that difficulty, I can safely state that `possessing` and `:partOf` are inverse relations, i.e. if `:x :possessing :y` then `:y :partOf :x`.
+
 #### Necessary conditions
 Note that we've only modeled *necessary conditions*:
 * If something is car, it has wheels.
@@ -135,7 +153,7 @@ What would a sufficient condition look like in this example? And how could we mo
 Imagine once again the situation where I wish to identify cars on video footage so I can count them for some statistical purpose. I'm looking for a sufficient condition that what make me consider something a car. One that immediately comes to mind is "having exactly four wheels".
 
 In OWL, this is straightforward:
-```owl
+```ttl
 :Car a owl:Class .
 :Wheel a owl:Class .
 
@@ -150,11 +168,6 @@ In OWL, this is straightforward:
 ```
 
 Now any entity that has exactly four wheels, is inferred to be of the type `Car`.
-
-#### Scoped vs context-free properties
-In OWL, properties are not scoped to classes but exist just like classes do "at the top-level". Contrast this way many object-oriented programming languages, where attributes are often owned by classes.
-
-This is yet another example where OWL is really explicit about how its semantics work, where with ERD it is not clear what assumptions can be made: If I encounter the use of two relationships with the same name in the some ERD model, can I the assume these are the same? Or different? Or neither?
 ## Conclusion
 ERD models are formal models and their representation can unambiguously be converted between a diagram and sentence representation.
 
