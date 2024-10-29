@@ -154,12 +154,6 @@ Imagine once again the situation where I wish to identify cars on video footage 
 
 In OWL, this is straightforward:
 ```ttl
-:Car a owl:Class .
-:Wheel a owl:Class .
-
-:possessing a owl:ObjectProperty .
-:partOf a owl:ObjectProperty .
-
 [ a owl:Restriction ;
   owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
   owl:onProperty :possessing ;
