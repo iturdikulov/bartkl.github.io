@@ -148,7 +148,7 @@ Note that we've only modeled *necessary conditions*:
 This example can trivially be generalized to show that these ERD statements can only represent such necessary conditions.
 
 #### Sufficient conditions
-What would a sufficient condition look like in this example? And how could we model it, if not in ERD, then perhaps in some other language, like OWL?
+What would a sufficient condition look like in this example? And how could we model it, if not in ERD, then in OWL?
 
 Imagine once again the situation where I wish to identify cars on video footage so I can count them for some statistical purpose. I'm looking for a sufficient condition that what make me consider something a car. One that immediately comes to mind is "having exactly four wheels".
 
