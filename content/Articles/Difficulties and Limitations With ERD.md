@@ -6,7 +6,7 @@ date: 10-28-2024
 
 ## ERD Model Example 1
 Consider the following ERD model (using Barker notation):
-![[Attachments/Untitled 2 2024-10-29 13.52.30.excalidraw]]
+![[../Attachments/Untitled 2 2024-10-29 13.52.30.excalidraw]]
 
 The following statements are encoded in this diagram:
 * Each `Citizen` must be `residing in` one and only one `House`.
@@ -79,7 +79,7 @@ _Knowledge representation_ on the other hand benefits from the OWA. The goal is 
 ## ERD Model Example 2
 Let's now turn to an example which, as promised, actually makes more sense under the knowledge representation interpretation:
 
-![[Attachments/ERD vs OWL 2024-10-25 21.25.33.excalidraw]]
+![[../Attachments/ERD vs OWL 2024-10-25 21.25.33.excalidraw]]
 
 In this example, the validation interpretation would mean verifying whether something that is said to be a car has the expected count of wheels, and when it doesn't we conclude that "this car has the wrong amount of wheels".
 
