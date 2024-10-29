@@ -85,7 +85,7 @@ In this example, the validation interpretation would mean verifying whether some
 
 That interpretation seems sensible, but hopefully you agree that it is not at all clear that the knowledge representation interpretation is *not* the intended one. Under that interpretation, failing to have multiple wheels would mean the thing is not a car. If it is stated to be a car, that yields a contradiction, causing the essence of a car to be ambiguous.
 
-> [!NOTE]
+> [!NOTE] Semantic perspectives
 > One might object that once I remove all wheels from a car, it is still a car. It is here where _semantic perspectives_ come into play. In a domain that is about repairing vehicles, then that makes sense, but if your ontology is about modeling statistics about vehicles on the road, then you need to come up with a strict definition of *what to count as a car*. In that context, requiring them to have more than 4 wheels is essential.
 
 ### Representing the model in OWL
