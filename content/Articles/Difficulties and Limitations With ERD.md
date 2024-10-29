@@ -28,8 +28,7 @@ Perhaps the distinction becomes more clear when I paraphrase as follows:
 2. If `x` does not reside in one and only house, then `x` is not a citizen. (_Knowledge representation_)
     * If, moreover, `x` is stated to be a citizen, this leads to a *contradiction* and consequently to *inconsistent* knowledge.
 
-> [!INFO]
-> Another way of putting it is that:
+> [!INFO] Another way of putting it
 > * *Validation is prescriptive*
 > * *Knowledge representation is descriptive*
 
